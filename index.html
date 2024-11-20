@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dumb Charades - Bollywood Movie Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Dumb Charades - Bollywood Edition!</h1>
+        <p id="game-instruction">Guess the Bollywood movie name based on the clues provided below.</p>
+        
+        <div id="movie-clue-container">
+            <p id="movie-clue"></p>
+        </div>
+
+        <input type="text" id="user-input" placeholder="Type your guess..." />
+        <button id="guess-button">Guess</button>
+        <button id="stop-button">Stop Game</button>
+        
+        <div id="feedback"></div>
+        <div id="score-container">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
